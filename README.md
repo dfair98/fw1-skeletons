@@ -1,4 +1,4 @@
-fw1-skeletons
-=============
+FW/1-Skeleton Applications
+==========================
 
 Framework One skeletons
