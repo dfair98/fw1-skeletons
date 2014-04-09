@@ -1,4 +1,4 @@
-# [FW/1 Skeletons] 
+# FW/1 Skeletons
 
 ## Introduction
 
