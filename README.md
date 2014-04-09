@@ -6,6 +6,7 @@ The FW/1 Skeletons are self-contained applications that you can use as a base fo
 
 ### Standard Skeleton 
 * Standard self-contained skeleton utilizing a bootstrap 3.1 layout
+
 ### Subsystem Skeleton
 * A skeleton utilizing subsystems, using a global bootstrap 3.1 layout
 
