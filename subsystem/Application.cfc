@@ -3,10 +3,13 @@ component extends="framework.one" {
 		this.applicationroot = getDirectoryFromPath( getCurrentTemplatePath() );
 		this.name = 'subsystem-skeleton';
 		this.datasource = 'subsystem-skeleton';
-		this.sessionmanagement = false;
-		this.setClientCookies = false;
-		this.scriptProtect = false;
+		this.sessionmanagement = true;
+		this.setClientCookies = true;
+		this.scriptProtect = true;
 		this.development = false;
+		// prevent bots creating lots of sessions
+		if ( structKeyExists( cookie, "CFTOKEN" ) ) this.sessiontimeout = createTimeSpan( 0, 0, 20, 0 );
+		else this.sessiontimeout = createTimeSpan( 0, 0, 0, 1 );
 
 
 	// ------------------------ APPLICATION MAPPINGS ------------------------ //
