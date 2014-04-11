@@ -17,7 +17,6 @@ FW/1 Skeletons for the frameworks listed below.
 ### Backend
 
 * [FW/1] (https://github.com/frameworkone/fw1)
-* [ValidateThis] (https://github.com/bobsilverberg/ValidateThis) (Coming Soon)
 
 
 ### Frontend
